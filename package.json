@@ -1,0 +1,27 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "ssp26",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "dependencies": {
+    "@icon/linea-basic": "^1.0.0",
+    "php": "0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SP-2605/Nature-Visit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SP-2605/Nature-Visit/issues"
+  },
+  "homepage": "https://github.com/SP-2605/Nature-Visit#readme",
+  "compile:sass": "node-sass sass/main.scss css/style.css"
+}

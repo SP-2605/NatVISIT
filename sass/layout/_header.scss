@@ -1,0 +1,30 @@
+.header {
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, $color-primary-dark-opacity, $color-primary-light-opacity), url("../img/hero.jpg");
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    position: relative;
+
+    &__logo-box {
+        position: absolute;
+        left: 3rem;
+        top: 3rem;
+    }
+
+    &__logo {
+        height: 3.5rem;
+        animation-name: logoFade;
+        animation-duration: 1s;
+        animation-timing-function: ease-in;
+    }
+
+    &__text-box {
+        position: absolute;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,18 @@
+*,
+*::after,
+*::before {
+    margin: 0px;
+    padding: 0px;
+    /* The box-sizing property allows us to include the padding and border in an element's total width and height.If you set box-sizing: border-box on an element padding and border are included in the width and height */
+}
+
+html {
+    font-size: 62.5%;
+    /*Calculation done by converting 10px into % by 10/16(Default Browser config) */
+    scroll-behavior: smooth;
+}
+
+body {
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
