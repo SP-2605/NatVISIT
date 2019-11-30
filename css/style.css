@@ -659,9 +659,18 @@ body {
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 3px;
   padding: 6rem;
+  padding-left: 9rem;
   transform: skewX(-12deg);
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   margin-bottom: 6rem; }
+  @media (max-width: 56.25em) {
+    .story1 {
+      width: 100%;
+      padding: 4rem;
+      padding-left: 7rem; } }
+  @media (max-width: 37.5em) {
+    .story1 {
+      transform: skewX(0); } }
   .story1__shape {
     width: 15rem;
     height: 15rem;
@@ -673,8 +682,14 @@ body {
     transform: translateX(-3rem) skewX(12deg);
     position: relative;
     overflow: hidden; }
+    @media (max-width: 37.5em) {
+      .story1__shape {
+        transform: translateX(-3rem) skewX(0deg); } }
   .story1__text {
     transform: skewX(12deg); }
+    @media (max-width: 37.5em) {
+      .story1__text {
+        transform: skewX(0deg); } }
   .story1__img {
     height: 100%;
     transition: all .3s;
@@ -708,6 +723,14 @@ body {
   transform: skewX(-12deg);
   font-size: 1.6rem;
   margin-bottom: 5rem; }
+  @media (max-width: 56.25em) {
+    .story2 {
+      width: 100%;
+      padding: 4rem;
+      padding-left: 7rem; } }
+  @media (max-width: 37.5em) {
+    .story2 {
+      transform: skewX(0); } }
   .story2__shape {
     width: 15rem;
     height: 15rem;
@@ -718,8 +741,14 @@ body {
     clip-path: circle(50% at 50% 50%);
     transform: translateX(-3rem) skewX(12deg);
     overflow: hidden; }
+    @media (max-width: 37.5em) {
+      .story2__shape {
+        transform: translateX(-3rem) skewX(0); } }
   .story2__text {
     transform: skewX(12deg); }
+    @media (max-width: 37.5em) {
+      .story2__text {
+        transform: skewX(0deg); } }
   .story2__img {
     height: 100%;
     transition: all .3s;
@@ -771,6 +800,9 @@ body {
   border-bottom: 3px solid transparent;
   width: 80%;
   display: block; }
+  @media (max-width: 56.25em) {
+    .form__input {
+      width: 100%; } }
   .form__input:focus {
     outline: none;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
@@ -809,35 +841,6 @@ body {
   position: relative;
   padding-left: 4rem; }
 
-.form__radio-input {
-  display: none; }
-
-.form__radio-button {
-  height: 2.4rem;
-  width: 2.4rem;
-  border-radius: 50%;
-  display: inline-block;
-  border: 6px solid #55c57a;
-  position: absolute;
-  left: 0;
-  top: -.4rem; }
-  .form__radio-button::after {
-    content: "";
-    display: block;
-    height: 1.6rem;
-    width: 1.6rem;
-    border-radius: 50%;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #55c57a;
-    opacity: 0;
-    transition: opacity .4s ease; }
-
-.form__radio-input:checked ~ .form__radio-label .form__radio-button::after {
-  opacity: 1; }
-
 .form__SignUpLoginBtn {
   height: 6rem;
   width: 16rem;
@@ -866,6 +869,9 @@ body {
     font-weight: 100;
     display: inline-block;
     top: -0.8rem; }
+    @media (max-width: 56.25em) {
+      .form__SignUpLoginBtn-Text {
+        font-size: 2rem; } }
 
 .popup {
   height: 100vh;
@@ -1235,6 +1241,19 @@ body {
   background-size: 100%;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2); }
+  @media (max-width: 75em) {
+    .book {
+      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../img/nat-10.jpg);
+      background-size: cover; } }
+  @media (max-width: 56.25em) {
+    .book {
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../img/nat-10.jpg); } }
   .book__form {
     width: 50%;
     padding: 6rem; }
+    @media (max-width: 75em) {
+      .book__form {
+        width: 65%; } }
+    @media (max-width: 56.25em) {
+      .book__form {
+        width: 100%; } }
