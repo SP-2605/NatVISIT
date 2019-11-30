@@ -1,3 +1,25 @@
+/*
+0 - 600px:      Phone
+600 - 900px:    Tablet portrait
+900 - 1200px:   Tablet landscape
+[1200 - 1800] is where our normal styles apply
+1800px + :      Big desktop
+
+$breakpoint arguement choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+ORDER: Base + typography > general layout + grid > page layout > components
+
+1em = 16px
+
+600/16=37.5em
+900/16=37.5em
+1200/16=37.5em
+1800/16=37.5em
+*/
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -42,16 +64,35 @@
 *::before {
   margin: 0px;
   padding: 0px;
+  box-sizing: inherit;
   /* The box-sizing property allows us to include the padding and border in an element's total width and height.If you set box-sizing: border-box on an element padding and border are included in the width and height */ }
 
 html {
   font-size: 62.5%;
+  /*font-size=10px*/
   /*Calculation done by converting 10px into % by 10/16(Default Browser config) */
   scroll-behavior: smooth; }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 68.75%; } }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (max-width: 37.5em) {
+    html {
+      font-size: 37.5%; } }
 
 body {
   box-sizing: border-box;
+  padding: 3rem;
   scroll-behavior: smooth; }
+
+::selection {
+  background-color: #55c57a;
+  color: #fff; }
 
 .heading-primary {
   color: #fff;
