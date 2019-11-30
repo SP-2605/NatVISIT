@@ -2,10 +2,19 @@
     background-color: $color-dark;
     padding: 10rem 0;
     font-size: 1.4rem;
+    color: $color-light-gray;
+
+    @include respond(tab-port){
+        padding: 8rem 0;
+    }
 
     &__logo-box{
         text-align: center;   //inline element behaves as a text ; here the img is the inline element
         margin-bottom: 8rem;
+
+        @include respond(tab-port){
+            margin-bottom: 6rem;
+        }
     }
 
     &__logo{
@@ -19,6 +28,10 @@
         padding-top: 2rem;
         display: inline-block; //will only occupy the space , occupied by the element
 
+        @include respond(tab-port){
+            width: 100%;
+            text-align: center;
+        }
     }
 
     &__list{
@@ -27,6 +40,7 @@
 
     &__items{
         display: inline-block;
+
         &:not(:last-child){
             margin-right: 1.5rem;
         }
@@ -61,5 +75,10 @@
         letter-spacing: 1px;
         width: 80%;
         float: right;
+
+        @include respond(tab-port){
+            width: 100%;
+            float: none;
+        }
     }
 }

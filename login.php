@@ -278,7 +278,10 @@
 			</div>
 		</div>
 	</div>
-	<a class="btn btn--green" href="#popup">Discover all tours</a>
+</div>
+	 <!-- <div class="u-center-text u-margin-top-huge">
+		<a href="#" class="btn btn--green">Discover all tours</a>
+	</div> -->
 </section>
 
 <!-- STORIES -->

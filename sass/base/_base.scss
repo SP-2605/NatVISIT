@@ -34,6 +34,10 @@ body {
    box-sizing: border-box;
    padding: 3rem;
    scroll-behavior: smooth;
+
+   @include respond(tab-port){
+       padding: 0;
+   }
 }
 
 ::selection {
