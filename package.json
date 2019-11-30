@@ -4,15 +4,21 @@
   "description": "landing page for natours",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
+    "concat:css": "concat -o css/style.concat.css css/icon-font.css css/style.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' style.concat.css -o css/style.prefix.css"
   },
   "author": "ssp26",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.13.0"
+    "autoprefixer": "^9.7.3",
+    "node-sass": "^4.13.0",
+    "postcss-cli": "^6.1.3"
   },
   "dependencies": {
     "@icon/linea-basic": "^1.0.0",
+    "concat": "^1.0.3",
     "php": "0.0.1"
   },
   "repository": {
