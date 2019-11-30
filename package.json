@@ -9,7 +9,7 @@
   "author": "ssp26",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.13.0"
   },
   "dependencies": {
     "@icon/linea-basic": "^1.0.0",
