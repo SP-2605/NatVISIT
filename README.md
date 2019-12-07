@@ -9,4 +9,4 @@
 * Once you are in the "Welcome to XAMPP" webpage, replace the DASHBOARD in "localhost/dashboard/" with relevant path, where the login.php resides.
 * Now you can view the web-page. It also consists of LOGIN and SIGNUP facilities.
 ------------------------------------------------------------------------------------------------
-![Demo](https://github.com/SP-2605/NatVISIT/blob/master/Website-Demo/2019-12-08%2002-29-46.mkv)
+![Demo](https://github.com/SP-2605/NatVISIT/blob/master/Website-Demo/2019-12-08-02-29-46.mp4)
