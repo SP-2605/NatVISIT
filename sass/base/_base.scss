@@ -35,6 +35,10 @@ body {
    padding: 3rem;
    scroll-behavior: smooth;
 
+   ::-webkit-scrollbar{
+       display: none;
+   }
+
    @include respond(tab-port){
        padding: 0;
    }
