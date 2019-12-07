@@ -55,13 +55,13 @@
             </form>
         </div>
 
-        <div class="content" style="display:block; position:relative; top:3rem; text-align:center; right:1rem">
+        <div class="content" style="display:block; position:relative; top:3rem; text-align:center; right:0rem">
             <!-- logged in user information -->
             <img id="profile" src="img/man.png" alt="Img" style="height:3.5rem; margin-bottom:1rem;border-color:green">
             <!-- notification message -->
   	
             <?php  if (isset($_SESSION['username'])) : ?>
-                <p>Welcome <strong style="text-transform:uppercase"><?php echo $_SESSION['username']; ?></strong></p>
+                <p><strong>HI</strong> <strong style="text-transform:uppercase"><?php echo $_SESSION['username']; ?></strong></p>
                 <p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
             <?php endif ?>
         </div>
