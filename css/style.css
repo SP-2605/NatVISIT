@@ -301,18 +301,10 @@ body {
 
 .btn-stories:hover {
   background-color: #55c57a;
-  transform: translateY(-0.4rem);
   color: #fff;
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5);
   border-radius: 100px;
-  border: solid #fff 1px;
-  font-weight: 600;
   backface-visibility: hidden;
   overflow: hidden; }
-
-.btn-stories:active {
-  transform: translateY(-0.4rem);
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3); }
 
 .book-button {
   width: 12rem;

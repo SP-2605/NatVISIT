@@ -148,21 +148,14 @@
 
     &:hover {
         background-color: $color-primary;
-        transform: translateY(-.4rem);
         color: $color-white;
-        box-shadow: 0 6px 8px rgba($color-black, 0.5);
         border-radius: 100px;
-        border: solid $color-white 1px;
-        font-weight: 600;
+        // border: solid $color-white 1px;
         backface-visibility: hidden;
         overflow: hidden;
 
     }
 
-    &:active {
-        transform: translateY(-.4rem);
-        box-shadow: 0 3px 5px rgba($color-black, 0.3);
-    }
 }
 
 .book-button{

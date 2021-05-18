@@ -34,7 +34,7 @@
 <!-- The entire page spanning over with the contents of the navigation  -->
 	<nav class="navigation__nav">
 		<ul class="navigation__list">
-			<li class="navigation__item"><a href="#" class="navigation__link"><span>01</span> About Natours</a></li>
+			<li class="navigation__item"><a href="#" class="navigation__link"><span>01</span> About NatVist</a></li>
 			<li class="navigation__item"><a href="#" class="navigation__link"><span>02</span> Benifits</a></li>
 			<li class="navigation__item"><a href="#" class="navigation__link"><span>03</span> Popular Tours</a></li>
 			<li class="navigation__item"><a href="#" class="navigation__link"><span>04</span> Our Stories</a></li>
@@ -45,6 +45,7 @@
 <header class="header">
 	<div class="header__logo-box">
 		<img class="header__logo" src="img\logo-white.png" alt="header__logo">
+		<h4 class="heading-primary" style="text-align: center; font-size: 15px">NatVisit</h4>
 	</div>
 	<div class="header__text-box">
 		<h1 class="heading-primary">
@@ -312,7 +313,7 @@
 					labore et dolore magna
 					aliqua. Nibh tortor id aliquet lectus proin nibh nisl condimentum id. Aliquam nulla facilisi
 					cras fermentum odio eu.
-					Ipsum dolor sit amet consectetur adipiscing facilisi cras fermentum odio eu.</p>
+					Ipsum dolor sit amet consectetur adipiscing.</p>
 			</div>
 		</div>
 
@@ -381,7 +382,8 @@
 
 <footer class="footer">
 	<div class="footer__logo-box">
-		<img src="img/logo-green-2x.png" class="footer__logo" alt="Logo">
+		<img src="img/logo-white.png" class="footer__logo" alt="Logo">
+		<h2 class="heading-primary" style="text-align: center">NatVisit</h2>
 	</div>
 	<div class="row">
 		<div class="col-1-of-2">
@@ -398,10 +400,9 @@
 		</div>
 		<div class="col-1-of-2">
 			<p class="footer__copyright">
-				Built by <a href="" class="footer__link">Suriya Prasath.S</a> for his practice in <a href=""
-					class="footer__link">Advanced CSS and SASS</a>. Copyright &copy; by Suriya Prasath.S. You are
-				100% allowed to use this webpage for both personal and commercial use but not to claim it as your
-				own design. A credit to the author, Suriya Prasath, is of course highly appreciated!
+				Built by <a href="" class="footer__link">Suriya, Shwetha & Shruti</a> for their HMI Mini Project. 
+				You are	100% allowed to use this webpage for both personal and commercial use but not to claim it as your
+				own design.
 			</p>
 		</div>
 	</div>
